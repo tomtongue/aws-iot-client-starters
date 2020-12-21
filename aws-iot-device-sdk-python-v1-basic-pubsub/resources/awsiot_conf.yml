@@ -1,0 +1,18 @@
+use1:
+  host: randomid-ats.iot.us-east-1.amazonaws.com
+  cert: ./resources/device.crt
+  key: ./resources/device.key
+  rootca: ./resources/SFSRootCAG2.pem
+apne1:
+  host: randomid-ats.iot.ap-northeast-1.amazonaws.com
+  cert: ./xxx
+  key: ./xxx
+  rootca: ./xxx
+
+client:
+  id: aws-iot-device-sdk-python
+  port: 8883
+
+topics:
+  pub: hello/pub
+  sub: hello/sub
